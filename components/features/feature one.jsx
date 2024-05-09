@@ -4,9 +4,9 @@ import Link from "next/link";
 export default function FeatureOne(){
     return (
         <>
-            <div className={"flex gap-10 ml-14"}>
-                <div>
-                    <Image src={"/puzzle.png"} alt={"feature one"} width={200} cover height={200} quality={100}/>
+            <div className={"flex gap-12"}>
+                <div className={"relative"}>
+                    <Image src={"/puzzle.png"} alt={"feature one"} width={100} cover height={100} quality={100}/>
                 </div>
                 <div>
                     <h1 className={"text-2xl font-semibold leading-10 pb-3"}>Using Abstract</h1>

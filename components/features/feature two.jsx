@@ -4,9 +4,9 @@ import Link from "next/link";
 export default function FeatureTwo() {
     return (
         <>
-            <div className={"flex gap-10 ml-14"}>
-                <div>
-                    <Image src={"/profile.png"} alt={"feature one"} width={200} cover height={200} quality={100}/>
+            <div className={"flex gap-12"}>
+                <div className={"w-44"}>
+                    <Image src={"/profile.png"} alt={"feature one"} width={200}  height={100} quality={100}/>
                 </div>
                 <div>
                     <h1 className={"text-2xl font-semibold leading-10 pb-3"}>Manage your account</h1>
